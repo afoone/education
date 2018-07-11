@@ -71,7 +71,7 @@ app.update = function (action, asset, owner) {
   }
 }
 
-// Select User
+// Selecciona un usuario o key pair
 $('[name="keySelect"]').on('change', function () {
   if (this.value === 'new') {
     app.user = makeKeyPair()
